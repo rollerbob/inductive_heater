@@ -18,24 +18,6 @@ X Pin_1 1 200 0 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_Degson_DG126-5.0-02P
-#
-DEF Connector_Degson_DG126-5.0-02P J 0 0 N N 1 F N
-F0 "J" 50 150 50 H V C CNN
-F1 "Connector_Degson_DG126-5.0-02P" 0 -150 50 H V C CNN
-F2 "Connector_Degson:DG125-5.0-02P" -50 200 50 H I C CNN
-F3 "" -50 200 50 H I C CNN
-DRAW
-S 0 100 100 -100 0 1 0 f
-P 2 0 1 0 50 -50 100 -100 N
-P 2 0 1 0 100 0 0 0 N
-P 3 0 1 0 0 -50 50 -50 100 0 N
-P 6 0 1 0 50 50 0 50 50 50 100 100 50 50 100 0 N
-X 1 1 -100 50 100 R 50 50 1 1 P
-X 2 2 -100 -50 100 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # Device_C
 #
 DEF Device_C C 0 10 N Y 1 F N
@@ -136,14 +118,31 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Transistor_FET_IRFZ46N
+# ind_heater-rescue_DG126-5.0-02P-Connector_Degson
 #
-DEF Transistor_FET_IRFZ46N Q 0 20 Y N 1 F N
+DEF ind_heater-rescue_DG126-5.0-02P-Connector_Degson J 0 0 N N 1 F N
+F0 "J" 50 150 50 H V C CNN
+F1 "ind_heater-rescue_DG126-5.0-02P-Connector_Degson" 0 -150 50 H V C CNN
+F2 "Connector_Degson:DG125-5.0-02P" -50 200 50 H I C CNN
+F3 "" -50 200 50 H I C CNN
+DRAW
+S 0 100 100 -100 0 1 0 f
+P 2 0 1 0 50 -50 100 -100 N
+P 2 0 1 0 100 0 0 0 N
+P 3 0 1 0 0 -50 50 -50 100 0 N
+P 6 0 1 0 50 50 0 50 50 50 100 100 50 50 100 0 N
+X 1 1 -100 50 100 R 50 50 1 1 P
+X 2 2 -100 -50 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# ind_heater-rescue_IRFZ46N-Transistor_FET
+#
+DEF ind_heater-rescue_IRFZ46N-Transistor_FET Q 0 20 Y N 1 F N
 F0 "Q" 250 75 50 H V L CNN
-F1 "Transistor_FET_IRFZ46N" 250 0 50 H V L CNN
+F1 "ind_heater-rescue_IRFZ46N-Transistor_FET" 250 0 50 H V L CNN
 F2 "Package_TO_SOT_THT:TO-220-3_Vertical" 250 -75 50 H I L CIN
 F3 "" 0 0 50 H I L CNN
-ALIAS IRF3205 IRF540N IRF740 IRLB8721PBF IRLZ34N IRLZ44N VNP10N07 IPP060N06N IRFZ46N
 $FPLIST
  TO?220*
 $ENDFPLIST

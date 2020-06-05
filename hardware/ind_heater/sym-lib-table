@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name ind_heater-rescue)(type Legacy)(uri ${KIPRJMOD}/ind_heater-rescue.lib)(options "")(descr ""))
+)

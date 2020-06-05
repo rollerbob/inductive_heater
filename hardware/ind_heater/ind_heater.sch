@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Transistor_FET:IRFZ46N Q1
+L ind_heater-rescue:IRFZ46N-Transistor_FET Q1
 U 1 1 5EB19214
 P 5450 4000
 F 0 "Q1" H 5656 4046 50  0000 L CNN
@@ -25,7 +25,7 @@ F 3 "http://www.irf.com/product-info/datasheets/data/irfz46n.pdf" H 5450 4000 50
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Degson:DG126-5.0-02P J1
+L ind_heater-rescue:DG126-5.0-02P-Connector_Degson J1
 U 1 1 5EAE9A9B
 P 2900 3950
 F 0 "J1" H 3028 3996 50  0000 L CNN
@@ -141,7 +141,7 @@ F 3 "~" H 6650 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_FET:IRFZ46N Q2
+L ind_heater-rescue:IRFZ46N-Transistor_FET Q2
 U 1 1 5EAF3120
 P 5450 4600
 F 0 "Q2" H 5656 4646 50  0000 L CNN
